@@ -39,23 +39,9 @@ do_action( 'woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text, 
 
 
 
-?>
 
-<tr>
-	<td>
-		<?php
-		/**
-		 * Show user-defined additional content - this is set in each email's settings.
-		 */
-		if ($additional_content) {
-			echo wp_kses_post(wpautop(wptexturize($additional_content)));
-		}
-
-		?>
-	</td>
-</tr>
-<?php
 /*
  * @hooked WC_Emails::email_footer() Output the email footer
  */
 
+do_action( 'woocommerce_email_footer','');

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Email Addresses
  *
@@ -15,7 +16,7 @@
  * @version 5.6.0
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
+if (!defined('ABSPATH')) {
 	exit;
 }
 
@@ -24,31 +25,63 @@ $address    = $order->get_formatted_billing_address();
 $shipping   = $order->get_formatted_shipping_address();
 
 ?><table id="addresses" cellspacing="0" cellpadding="0" style="width: 100%; vertical-align: top; margin-bottom: 40px; padding:0;" border="0">
+
+
+
 	<tr>
-		<td style="text-align:<?php echo esc_attr( $text_align ); ?>; font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif; border:0; padding:0;" valign="top" width="50%">
-			<h2><?php esc_html_e( 'Billing address', 'woocommerce' ); ?></h2>
+		<td class="side-pad" align="center">
+			<table class="body" width="560" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr>
+						<td class="column">
+							<table class="body" width="560" border="0" cellspacing="0" cellpadding="0">
+								<tbody>
+									<tr>
+										<td class="column">
+											<table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<tbody>
+													<tr>
+														<td class="column">
+															<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																<tbody>
+																	<tr>
+																		<td valign="middle" class="column" width="270">
+																			<span style="font-family: 'open-sans',sans-serif; font-size: 14px ; color: #9b9b9b ; line-height: 20px ; "><strong style="color: #000000">Billing address</strong><br />
 
-			<address class="address">
-				<?php echo wp_kses_post( $address ? $address : esc_html__( 'N/A', 'woocommerce' ) ); ?>
-				<?php if ( $order->get_billing_phone() ) : ?>
-					<br/><?php echo wc_make_phone_clickable( $order->get_billing_phone() ); ?>
-				<?php endif; ?>
-				<?php if ( $order->get_billing_email() ) : ?>
-					<br/><?php echo esc_html( $order->get_billing_email() ); ?>
-				<?php endif; ?>
-			</address>
+																				<?php echo wp_kses_post($address ? $address : esc_html__('N/A', 'woocommerce')); ?>
+																				<?php if ($order->get_billing_phone()) : ?>
+																					<br /><?php echo wc_make_phone_clickable($order->get_billing_phone()); ?>
+																				<?php endif; ?>
+																				<?php if ($order->get_billing_email()) : ?>
+																					<br /><?php echo esc_html($order->get_billing_email()); ?>
+																				<?php endif; ?>
+
+																			</span>
+																		</td>
+																		<td width="20" class="column">&nbsp;</td>
+																		<?php if (!wc_ship_to_billing_address_only() && $order->needs_shipping_address() && $shipping) : ?>
+																			<td width="270" class="column"><span style="font-family: 'open-sans',sans-serif; font-size: 14px ; color: #9b9b9b ; line-height: 20px ; "><strong style="color: #000000">Shipping address</strong>
+																					<?php echo wp_kses_post($shipping); ?>
+																					<?php if ($order->get_shipping_phone()) : ?>
+																						<br /><?php echo wc_make_phone_clickable($order->get_shipping_phone()); ?>
+																					<?php endif; ?></span>
+																			</td>
+																		<?php endif; ?>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
 		</td>
-		<?php if ( ! wc_ship_to_billing_address_only() && $order->needs_shipping_address() && $shipping ) : ?>
-			<td style="text-align:<?php echo esc_attr( $text_align ); ?>; font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif; padding:0;" valign="top" width="50%">
-				<h2><?php esc_html_e( 'Shipping address', 'woocommerce' ); ?></h2>
-
-				<address class="address">
-					<?php echo wp_kses_post( $shipping ); ?>
-					<?php if ( $order->get_shipping_phone() ) : ?>
-						<br /><?php echo wc_make_phone_clickable( $order->get_shipping_phone() ); ?>
-					<?php endif; ?>
-				</address>
-			</td>
-		<?php endif; ?>
 	</tr>
 </table>

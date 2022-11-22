@@ -19,169 +19,122 @@
 defined('ABSPATH') || exit;
 ?>
 <tr>
-	<td class="box box-ext cx-info-box" style="background: #fff;padding: 0 25px;text-align: center;color: #2a3376;">
-		<table class="info-cta" style="margin: 0 auto;">
-			<tbody>
-				<tr>
-					<td class="em-spacer-5" style="height: 32px;text-align: center;">
-					</td>
-				</tr>
-				<tr>
-					<td class="title" style="text-align: center;font-weight: 700;text-transform: uppercase;font-size: 19px;padding-bottom: 18px;">
-						Questions? We're on call. </td>
-				</tr>
-				<tr>
-					<td class="info" style="text-align: center;">
-						Monday to Friday 9am - 9pm ET </td>
-				</tr>
-				<tr>
-					<td class="info" style="text-align: center;">
-						Saturday to Sunday 10am - 6pm ET </td>
-				</tr>
-				<tr>
-					<td class="links" style="text-align: center;padding-top: 20px;">
-						<img src="https://forensichealing.com/wp-content/uploads/2022/11/call.png" class="icon-bubble" style="width: 28px;margin-bottom: -9px;margin-right: 3px;">
-						+61 (2) 8069 5881 <span class="pipe">
-							&nbsp;|&nbsp;
-						</span>
-						<img src="https://forensichealing.com/wp-content/uploads/2022/11/support.png" class="icon-email" style="margin-bottom: -6px;margin-right: 1px;width: 28px;">
-						support@casper.com
-					</td>
-				</tr>
-				<tr>
-					<td class="em-spacer-5" style="height: 32px;text-align: center;">
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</td>
-</tr>
+        <td align="center" valign="top" bgcolor="#f7f7f7" class="side-pad">
+          <table class="body" style="font-family: Arial, sans-serif; max-width: 600px; ; margin: 0px auto;"
+            align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+            <tbody>
+              <tr>
+                <td align="center" bgcolor="#f7f7f7">
+                  <table class="container" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                    <tbody>
+                      <tr>
+                        <td class="column"
+                          style="font-family: 'open-sans',sans-serif ;font-size: 14px ; padding-bottom: 10px ; ">
+                          <strong>Wat je verder van ons mag verwachten</strong><br />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                          style="font-family: 'open-sans',sans-serif ;font-size: 14px ; color: #777777 ; line-height: 18px ; ">
+                          <strong style="color: #181818"><img src="https://beesof.com/wp-content/uploads/2022/11/right-arrow.png" width="9" height="17" alt="" />
+                            <a href="https://beesof.com/politica-de-cambios-y-devoluciones/">Política de cambios y
+                              devoluciones</a></strong><br />
 
-<tr>
-	<td class="em-spacer-1" style="height: 26px;"></td>
-</tr>
-<tr>
-	<td class="box box-ext referral-box" style="background: #FCDB67;padding: 0 25px;text-align: center;color: #000000;font-family: Helvetica">
-		<table class="referral-info" style="margin: 0 auto;">
-			<tbody>
-				<tr>
-					<td class="em-spacer-1" style="height: 26px;text-align: center;">
-					</td>
-				</tr>
-				<tr align="center">
-					<td class="friends-img-wrap" style="padding-bottom: 8px;text-align: center;">
-						<a href="https://casper.com/anon/friends?utm_campaign=order+confirmation&amp;utm_content=thank+you+for+your+order&amp;utm_medium=email&amp;utm_source=casper+support" target="_blank" style="color: #fff;">
-							<img src="https://forensichealing.com/wp-content/uploads/2022/11/pin.png" width="68">
-						</a>
-					</td>
-				</tr>
-				<tr>
-					<td class="title" style="text-align: center;padding-bottom: 10px;font-weight: 700;text-transform: uppercase;font-size: 19px;">
-						POSTAL ADDRESS </td>
-				</tr>
-				<tr>
-					<td class="info" style="text-align: center;">
-						6/399 Belmore Road
-						Suite 115
-						Balwyn VIC 3103 Australia. </td>
-				</tr>
-				<tr>
-					<td class="em-spacer-0" style="height: 20px;text-align: center;">
-					</td>
-				</tr>
-				<tr>
-					<td class="link" style="text-align: center;">
-						<a href="https://forensichealing.com/contact/" target="_blank" style="color: #000000;">Contact Us</a>
-					</td>
-				</tr>
-				<tr>
-					<td class="em-spacer-1" style="height: 26px;text-align: center;">
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</td>
-</tr>
+                          <br />
+                          <strong style="color: #181818"><img src="https://beesof.com/wp-content/uploads/2022/11/right-arrow.png" width="9" height="17" alt="" />
+                            <a href="https://beesof.com/terminos-y-condiciones/">Términos y
+                              condiciones</a></strong><br />
 
+                        </td>
+                      </tr>
+                      <tr>
+                        <td
+                          style="font-family: 'open-sans',sans-serif ;font-size: 14px ; color: #777777 ; line-height: 18px ; ">
+                          <br>
+                          <strong style="color: #181818"><img src="https://beesof.com/wp-content/uploads/2022/11/right-arrow.png" width="9" height="17" alt="" />
+                            <a href="https://beesof.com/aviso-legal/">Aviso legal</a></strong><br />
 
-</tbody>
-</table>
-<table style="margin: 0 auto;">
-	<tbody>
-		<tr>
-			<td class="em-spacer-2" style="height: 52px;"></td>
-		</tr>
-		<tr>
-			<td class="footer footer-1" style="color: #999;font-size: 13px;">
-				+1 888–498–0003 <span class="pipe">
-					&nbsp;|&nbsp;
-				</span>
-				support@casper.com</td>
-		</tr>
-		<tr>
-			<td class="em-spacer-0" style="height: 20px;"></td>
-		</tr>
-		<tr>
-			<td align="center" class="footer footer-2" style="color: #999;font-size: 13px;">
-				<table class="footer-icons" style="margin: 0 auto;width: 153px;">
-					<tbody>
-						<tr>
-							<td class="footer-icon">
-								<a href="https://www.facebook.com/ForensicHealing" target="_blank" style="color: #0047be;">
-									<img src="https://forensichealing.com/wp-content/uploads/2022/11/facebook.png" width="31" height="31">
-								</a>
-							</td>
-							<td class="footer-icon">
-								<a href="https://www.instagram.com/marisarussoforensichealing/" target="_blank" style="color: #0047be;">
-									<img src="https://forensichealing.com/wp-content/uploads/2022/11/instagram.png" width="31" height="31">
-								</a>
-							</td>
-							<td class="footer-icon">
-								<a href="https://twitter.com/marisarusso" target="_blank" style="color: #0047be;">
-									<img src="https://forensichealing.com/wp-content/uploads/2022/11/twitter.png" width="31" height="31">
-								</a>
-							</td>
-							<td class="footer-icon">
-								<a href="https://au.linkedin.com/in/marisarusso" target="_blank" style="color: #0047be;">
-									<img src="https://forensichealing.com/wp-content/uploads/2022/11/linkedin.png" width="31" height="31">
-								</a>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</td>
-		</tr>
-	</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
+                          <br />
+                          <strong style="color: #181818"><img src="https://beesof.com/wp-content/uploads/2022/11/right-arrow.png" width="9" height="17" alt="" />
+                            <a href="https://beesof.com/contact-us/">Contacto</a></strong><br />
 
-
-
-<table style="margin: 0 auto;">
-	<tbody>
-		<tr>
-			<td class="copyright-footer" style="padding-top: 15px;padding-bottom: 20px;font-size: 11px;color: #b2b2b2;">
-				1100 High Street
-				Armadale
-				VIC 3143 Australia <span class="pipe">
-					&nbsp;|&nbsp;
-				</span>
-				© Copyright 2009-2020 Forensic Healing™ All Rights Reserved.. </td>
-		</tr>
-	</tbody>
-</table>
-
-<!-- class content -->
-
-
-
-
-</body>
-
-
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="column" align="center">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td class="column" align="center">
+                          <table class="body" width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td class="column">
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tbody>
+                                      <tr>
+                                        <td class="column">
+                                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                              <tr>
+                                                <td width="332" valign="middle" class="column"
+                                                  style="font-family: 'open-sans',sans-serif ;font-size: 14px ;; "><img
+                                                    src="https://beesof.com/wp-content/uploads/2022/07/Beesof-LOGO-2.png"
+                                                    width="200" alt="" /></td>
+                                                <td width="10" class="column">&nbsp;</td>
+                                                <td width="221" align="center" valign="top">
+                                                  <table width="50%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td width="50%" align="center"><a href=""><img
+                                                              src="https://www.flinqproducts.nl/wp-content/uploads/2021/10/Instagram.png"
+                                                              width="40" alt="" /></a></td>
+                                                        <td width="50%" align="center"><a href=""><img
+                                                              src="https://www.flinqproducts.nl/wp-content/uploads/2021/10/Facebook.png"
+                                                              width="40" alt="" /></a></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="column" align="center">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td
+                          style="font-family: 'open-sans',sans-serif ;font-size: 12px ; color: #777777 ; line-height: 18px ; ">
+                          <em>Los términos y condiciones generales se aplican a todos nuestros productos. Puede leer
+                            cómo manejamos sus datos personales en nuestra declaración de privacidad.
+                          </em>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td align="center" valign="top" bgcolor="#f7f7f7">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" valign="top" bgcolor="#f7f7f7">&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 
 </html>
